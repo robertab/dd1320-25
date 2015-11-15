@@ -1,0 +1,8 @@
+"""
+Specifikation för lab 6.1
+"""
+
+
+"""
+Först behöver vi en funktion check_cap_letter() som undersöker om det finns en stor bokstav
+"""

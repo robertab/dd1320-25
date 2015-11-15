@@ -1,0 +1,30 @@
+# -*- coding: utf-8 -*-
+
+""" 
+Kurs: DD1320/25 Tillämpad datalogi med Etik
+Författare: Robert Åbert, Sara Ervik, CDATE_2.
+Uppgift: Lab6.1
+"""
+
+
+
+"""
+Först behöver vi en funktion check_cap_letter(letter) som undersöker om letter är en stor bokstav. 
+Om det inte stämmer returneras false
+"""
+def check_cap_letter(letter):
+    pass
+
+"""
+Vi behöver även funktionen check_lower_letter(letter) som undersöker om letter är en liten bokstav.
+Om det inte stämmer returneras false
+"""
+def check_lower_letter(letter):
+    pass
+
+"""
+Undersöker om indata  nummer > 1 samt ett heltal.
+Om det inte stämmer returneras false
+"""
+def check_num(number):
+    pass
