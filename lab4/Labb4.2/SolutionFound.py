@@ -1,0 +1,3 @@
+class SolutionFound(Exception):
+    pass
+        
