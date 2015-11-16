@@ -142,24 +142,24 @@ def printQueue(q):
             string += character
     return string
 
-def readFormula(formula):
-    q = storeFormula(formula) 
+def readFormula(mol):
+    q = storeFormula(mol) 
     try:
-        mol = readMol(q)
+        readMol(q)
         if not q.isEmpty():
             if q.peek() == ')':
-                mol = readMol(q)
+                readMol(q)
         return "Formeln är syntaktiskt korrekt"
     except Syntaxfel as fel:
         return str(fel) + " vid radslutet " + str(printQueue(q))
 
 def main():
     while True:
-        formula = stdin.readline()
+        mol = stdin.readline()
         if '#' in mol:
             return False
         else:
-            result = readFormula(formula)
+            result = readFormula(mol)
             print(result)
     
 if __name__ == '__main__':
